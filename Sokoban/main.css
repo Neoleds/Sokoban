@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+#container{
+
+    height:800px;
+    width: 950px;
+    background-color: burlywood;
+    margin: auto;
+    position: relative;
+}
+
+.block{
+	width:48px;
+	height:48px; 
+	border: 1px solid black;
+	float: left;
+}
+
+.B{
+	width:48px;
+	height:48px; 
+	border: 1px solid black;
+	background-color: black !important;
+	float: left;
+	position: relative;
+	
+}
+
+.W{
+	width:48px;
+	height:48px; 
+	border: 1px solid black;
+	background-color: brown;
+	float: left;
+}
+
+.G{
+    background-color: dodgerblue;
+	z-index: 1;
+	position: relative;
+}
+
+/* .P{
+	background-color: purple;
+} */
+
+.P{
+    background-color: darkseagreen;
+}
+
+/* .G{
+	background-color: gold;
+} */
